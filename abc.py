@@ -31,4 +31,3 @@ if uploaded_file is not None:
     # 선택된 열로 산점도 생성
     fig = px.scatter(data, x=x_axis, y=y_axis, title=f'{x_axis} vs {y_axis}')
     st.plotly_chart(fig)
-streamlit run abc.py
