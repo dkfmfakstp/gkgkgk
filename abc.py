@@ -1,3 +1,4 @@
+pip install plotly
 import pandas as pd
 
 # Google Drive 링크에서 CSV 파일 다운로드
